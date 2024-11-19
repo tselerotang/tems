@@ -135,28 +135,28 @@ export function StudentLifePage() {
           <h2 className="text-3xl font-bold mb-8 text-center text-blue-800">Student Life Gallery</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <Image
-              src="https://images.unsplash.com/photo-1491295794274-8f85adf01ecb"
+              src="https://images.unsplash.com/photo-1546519638-68e109498ffc"
               alt="Sports activities"
               width={300}
               height={300}
               className="rounded-lg shadow-lg w-full h-[200px] object-cover"
             />
             <Image
-              src="https://images.unsplash.com/photo-1526285759904-71d1170ed2ac"
+              src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc"
               alt="Arts performance"
               width={300}
               height={300}
               className="rounded-lg shadow-lg w-full h-[200px] object-cover"
             />
             <Image
-              src="https://images.unsplash.com/photo-1511632765486-a01980e01a18"
+              src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f"
               alt="Community service"
               width={300}
               height={300}
               className="rounded-lg shadow-lg w-full h-[200px] object-cover"
             />
             <Image
-              src="https://images.unsplash.com/photo-1523240795612-9a054b0db644"
+              src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b"
               alt="Academic activities"
               width={300}
               height={300}

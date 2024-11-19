@@ -27,10 +27,10 @@ export function LandingPageComponent() {
           </div>
           <nav className="hidden sm:block">
             <ul className="flex space-x-4">
-              <li><Link href="#" className="hover:underline">Students</Link></li>
-              <li><Link href="#" className="hover:underline">Parents</Link></li>
-              <li><Link href="#" className="hover:underline">Staff</Link></li>
-              <li><Link href="#" className="hover:underline">Contact</Link></li>
+              <li><Link href="/students" className="hover:underline">Students</Link></li>
+              <li><Link href="/parents" className="hover:underline">Parents</Link></li>
+              <li><Link href="/staff" className="hover:underline">Staff</Link></li>
+              <li><Link href="/contact" className="hover:underline">Contact</Link></li>
             </ul>
           </nav>
         </div>
@@ -42,11 +42,11 @@ export function LandingPageComponent() {
             Thetsane English<br className="sm:hidden" /> Medium School
           </div>
           <ul className="hidden md:flex space-x-6">
-            <li><Link href="#" className="hover:text-blue-600">Home</Link></li>
-            <li><Link href="#" className="hover:text-blue-600">About</Link></li>
-            <li><Link href="#" className="hover:text-blue-600">Academics</Link></li>
-            <li><Link href="#" className="hover:text-blue-600">Admissions</Link></li>
-            <li><Link href="#" className="hover:text-blue-600">Student Life</Link></li>
+            <li><Link href="/" className="hover:text-blue-600">Home</Link></li>
+            <li><Link href="/about" className="hover:text-blue-600">About</Link></li>
+            <li><Link href="/academics" className="hover:text-blue-600">Academics</Link></li>
+            <li><Link href="/admissions" className="hover:text-blue-600">Admissions</Link></li>
+            <li><Link href="/student-life" className="hover:text-blue-600">Student Life</Link></li>
           </ul>
           <div className="flex items-center">
             <Button 
@@ -72,7 +72,7 @@ export function LandingPageComponent() {
               <ul className="space-y-2">
                 <li>
                   <Link 
-                    href="#" 
+                    href="/" 
                     className="block py-2 px-4 hover:bg-blue-50 hover:text-blue-600 rounded-lg"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
@@ -81,7 +81,7 @@ export function LandingPageComponent() {
                 </li>
                 <li>
                   <Link 
-                    href="#" 
+                    href="/about" 
                     className="block py-2 px-4 hover:bg-blue-50 hover:text-blue-600 rounded-lg"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
@@ -90,7 +90,7 @@ export function LandingPageComponent() {
                 </li>
                 <li>
                   <Link 
-                    href="#" 
+                    href="/academics" 
                     className="block py-2 px-4 hover:bg-blue-50 hover:text-blue-600 rounded-lg"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
@@ -99,7 +99,7 @@ export function LandingPageComponent() {
                 </li>
                 <li>
                   <Link 
-                    href="#" 
+                    href="/admissions" 
                     className="block py-2 px-4 hover:bg-blue-50 hover:text-blue-600 rounded-lg"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
@@ -108,7 +108,7 @@ export function LandingPageComponent() {
                 </li>
                 <li>
                   <Link 
-                    href="#" 
+                    href="/student-life" 
                     className="block py-2 px-4 hover:bg-blue-50 hover:text-blue-600 rounded-lg"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
