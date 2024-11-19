@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    domains: ['images.unsplash.com', 'source.unsplash.com'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -8,8 +9,15 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'source.unsplash.com',
+        port: '',
+        pathname: '/**',
+      }
     ],
   },
+  output: 'standalone',
 }
 
 module.exports = nextConfig 
